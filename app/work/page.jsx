@@ -52,18 +52,6 @@ const projects = [
     live: "https://snazzy-gelato-49875b.netlify.app/",
     github: "",
   },
-  {
-    num: "04",
-    category: "Frontend",
-    title: "Project 4",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
-
-    stack: [{ name: "React.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
-    live: "https://fast-pizzza-react.netlify.app/menu",
-    github: "",
-  },
 ];
 
 function Work() {
