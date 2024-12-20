@@ -9,28 +9,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Passionate and detail-oriented software engineer with a strong foundation in React.js and Next.js.",
     href: "",
   },
   {
     num: "02",
     title: "Wordpress",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Experienced in creating and managing WordPress websites, including theme customization, plugin integration, and content management for dynamic and responsive web solutions",
     href: "",
   },
   {
     num: "03",
     title: "Video Editing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Proficient in video editing with expertise in crafting engaging and professional content, utilizing advanced tools for seamless transitions, effects, and storytelling",
     href: "",
   },
   {
     num: "04",
     title: "SQL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Skilled in SQL for database management, including creating, querying, and optimizing databases to ensure efficient data storage and retrieval",
     href: "",
   },
 ];

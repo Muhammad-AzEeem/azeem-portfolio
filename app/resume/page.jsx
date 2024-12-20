@@ -25,7 +25,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    " Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolor explicabo ullam iure",
+    "I’m a passionate web developer with 2+ years of experience in creating user-friendly and innovative solutions. Skilled in front-end development and proficient. I’m dedicated to delivering high-quality results and open to freelance opportunities. Let’s build something great together!",
 
   info: [
     {
@@ -68,12 +68,12 @@ const experience = {
   icon: "/public/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Resume Page Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolor explicabo ullam iure",
+    "My professional experience highlights my journey as a Frontend Developer, showcasing my skills in building responsive and dynamic websites. I've had the privilege of working on diverse projects, ranging from freelance work to corporate roles, where I honed my expertise in technologies like React.js, Next.js,",
 
   items: [
     {
       company: "Freelance.",
-      position: "Front Web Developer",
+      position: "Front End Developer",
       duration: "2024 - Present",
     },
     {
@@ -83,13 +83,18 @@ const experience = {
     },
     {
       company: "BitsPro.",
-      position: "Front Web Developer Intern",
+      position: "Front End Developer Intern",
       duration: "Winter 2024",
     },
     {
       company: "Zetsol.",
-      position: "Front Web Developer",
+      position: "Front End Web Developer",
       duration: "05 - 2024 to 06 - 2024",
+    },
+    {
+      company: "Zetsol.",
+      position: "IT Support Engineer",
+      duration: "05 - 2020 to 06 - 2022",
     },
   ],
 };
@@ -99,17 +104,18 @@ const education = {
   icon: "/public/assets/resume/cap.svg.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolor explicabo ullam iure",
+    "My educational background reflects my dedication to becoming a proficient software engineer. From earning my degree in Software Engineering to completing specialized courses and bootcamps in cutting-edge technologies like React.js and Next.js, I have continually worked to sharpen my skills and stay updated with industry trends.",
 
   items: [
     {
       Institution: "Online Course Platform.",
-      degree: "Front End Development Bootcamp",
+      degree: "React js, Nextjs Development",
       duration: "2023",
     },
     {
       Institution: "Udemy.",
       degree: "React js Development",
+      degree: "Front End Development Bootcamp",
       duration: "2022",
     },
     {
@@ -129,7 +135,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolor explicabo ullam iure",
+    "Here are the technologies and tools I have mastered to create efficient, responsive, and visually appealing web applications. With a strong foundation in frontend development and experience in modern frameworks and libraries, I strive to deliver clean and maintainable code.",
   skillList: [
     {
       icon: <FaHtml5 />,

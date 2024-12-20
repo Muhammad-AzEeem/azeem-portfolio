@@ -5,6 +5,7 @@ import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -30,7 +31,9 @@ export default function Home() {
                 size="lg"
                 className="uppercase flex items-center gap-2 hover:text-primary"
               >
-                <span>Download CV</span>
+                <Link href="">
+                  <span>Download CV</span>
+                </Link>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
