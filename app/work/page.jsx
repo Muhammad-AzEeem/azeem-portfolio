@@ -186,7 +186,7 @@ function Work() {
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px] relative group flex justify-center bg-pink-50/20">
+                    <div className="h-[340px] xl:h-[460px] relative group flex justify-center bg-pink-50/20">
                       {/* overlay */}
                       <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                       {/* Image */}
@@ -194,7 +194,7 @@ function Work() {
                         <Image
                           src={project.image}
                           fill
-                          className="object-center xl:object-cover"
+                          className="object-contain xl:object-cover"
                           alt=""
                         />
                       </div>
