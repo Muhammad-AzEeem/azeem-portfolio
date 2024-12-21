@@ -26,19 +26,19 @@ export default function Home() {
 
             {/* btn & social icons */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2 hover:text-primary"
+              <Link
+                href="https://drive.google.com/file/d/18PI5B9ytCNH4KmZvJ_jnEl8gfl_01M2K/view?usp=sharing"
+                target="_blank"
               >
-                <Link
-                  href="https://drive.google.com/file/d/18PI5B9ytCNH4KmZvJ_jnEl8gfl_01M2K/view?usp=sharing"
-                  target="_blank"
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2 hover:text-primary"
                 >
                   <span>Download CV</span>
-                </Link>
-                <FiDownload className="text-xl" />
-              </Button>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </Link>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
