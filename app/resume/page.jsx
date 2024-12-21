@@ -77,24 +77,19 @@ const experience = {
       duration: "2024 - Present",
     },
     {
-      company: "Pure Corporation.",
-      position: "Wordpress/Shopify Developer",
-      duration: "05 - 2023 to  06 - 2023",
-    },
-    {
       company: "BitsPro.",
       position: "Front End Developer Intern",
       duration: "Winter 2024",
     },
     {
-      company: "Zetsol.",
-      position: "Front End Web Developer",
-      duration: "05 - 2024 to 06 - 2024",
+      company: "Pure Corporation.",
+      position: "Wordpress/Shopify Developer",
+      duration: "05 - 2023 to  06 - 2023",
     },
     {
-      company: "Zetsol.",
-      position: "IT Support Engineer",
-      duration: "05 - 2020 to 06 - 2022",
+      company: "Exceed Pharmaceutical (PVT) LTD.",
+      position: "IT INCHARGE",
+      duration: "05 - 2020 to 05 - 2023",
     },
   ],
 };
@@ -108,13 +103,12 @@ const education = {
 
   items: [
     {
-      Institution: "Online Course Platform.",
+      Institution: "Udemy.",
       degree: "React js, Nextjs Development",
       duration: "2023",
     },
     {
       Institution: "Udemy.",
-      degree: "React js Development",
       degree: "Front End Development Bootcamp",
       duration: "2022",
     },

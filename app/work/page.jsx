@@ -25,31 +25,52 @@ const projects = [
 
     stack: [{ name: "Html5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/thumb1.png",
-    live: "https://the-wild-oasisx.netlify.app/",
+    live: "https://snazzy-gelato-49875b.netlify.app/",
     github: "",
   },
   {
     num: "02",
-    category: "FullStack",
+    category: "frontend",
     title: "Project 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "https://travel-with-mee.netlify.app/",
+    stack: [{ name: "Html5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/thumb1.png",
+    live: "https://natourse-tours.netlify.app/",
     github: "",
   },
   {
     num: "03",
-    category: "Frontend",
+    category: "FullStack",
     title: "Project 3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
-    live: "https://snazzy-gelato-49875b.netlify.app/",
+    stack: [
+      { name: "React.js" },
+      { name: "Tailwind.css" },
+      { name: "Supabase" },
+    ],
+    image: "/assets/work/thumb2.png",
+    live: "https://the-wild-oasisx.netlify.app/",
+    github: "",
+  },
+  {
+    num: "04",
+    category: "Frontend",
+    title: "Project 4",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
+
+    stack: [
+      { name: "HTML" },
+      { name: "Css" },
+      { name: "JavaScript" },
+      { name: "React.Js" },
+    ],
+    image: "/assets/work/thumb4.png",
+    live: "https://fast-pizzza-react.netlify.app/",
     github: "",
   },
 ];
@@ -92,7 +113,10 @@ function Work() {
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
-                    <li key={index} className="text-lg xl:text-xl text-accent">
+                    <li
+                      key={index}
+                      className="text-base xl:text-xl text-accent"
+                    >
                       {item.name}
                       {/* remove the last comma */}
                       {index !== project.stack.length - 1 && ","}
