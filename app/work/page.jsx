@@ -131,10 +131,7 @@ function Work() {
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
-                    <li
-                      key={index}
-                      className="text-base xl:text-xl text-accent"
-                    >
+                    <li key={index} className="text-sm xl:text-xl text-accent">
                       {item.name}
                       {/* remove the last comma */}
                       {index !== project.stack.length - 1 && ","}
@@ -194,7 +191,7 @@ function Work() {
                         <Image
                           src={project.image}
                           fill
-                          className="object-contain xl:object-cover"
+                          className="object-cover xl:object-cover"
                           alt=""
                         />
                       </div>
