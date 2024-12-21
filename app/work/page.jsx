@@ -26,7 +26,7 @@ const projects = [
     stack: [{ name: "Html5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/thumb1.png",
     live: "https://snazzy-gelato-49875b.netlify.app/",
-    github: "",
+    github: "https://github.com/Muhammad-AzEeem/OmniFood.git",
   },
   {
     num: "02",
@@ -36,9 +36,9 @@ const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
     stack: [{ name: "Html5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/thumb6.png",
     live: "https://natourse-tours.netlify.app/",
-    github: "",
+    github: "https://github.com/Muhammad-AzEeem/Tour-natour",
   },
   {
     num: "03",
@@ -48,13 +48,14 @@ const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
     stack: [
+      { name: "Html5" },
+      { name: "Css3" },
       { name: "React.js" },
-      { name: "Tailwind.css" },
       { name: "Supabase" },
     ],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/thumb7.png",
     live: "https://the-wild-oasisx.netlify.app/",
-    github: "",
+    github: "https://github.com/Muhammad-AzEeem/the-wild-oasis-react.git",
   },
   {
     num: "04",
@@ -65,13 +66,30 @@ const projects = [
 
     stack: [
       { name: "HTML" },
+      { name: "Tailwind" },
+      { name: "JavaScript" },
+      { name: "React.Js" },
+    ],
+    image: "/assets/work/thumb8.png",
+    live: "https://fast-pizzza-react.netlify.app/",
+    github: "https://github.com/Muhammad-AzEeem/fast-pizza-react.git",
+  },
+  {
+    num: "05",
+    category: "Frontend",
+    title: "Project 5",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
+
+    stack: [
+      { name: "HTML" },
       { name: "Css" },
       { name: "JavaScript" },
       { name: "React.Js" },
     ],
-    image: "/assets/work/thumb4.png",
-    live: "https://fast-pizzza-react.netlify.app/",
-    github: "",
+    image: "/assets/work/thumb9.png",
+    live: "https://travel-with-mee.netlify.app/",
+    github: "https://github.com/Muhammad-AzEeem/world-wise-react.git",
   },
 ];
 
@@ -143,7 +161,7 @@ function Work() {
                 </Link>
 
                 {/* Github Project btutton */}
-                <Link href={project.github}>
+                <Link href={project.github} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -158,7 +176,7 @@ function Work() {
               </div>
             </div>
           </div>
-          <div className="w-full xl:w-[50%]">
+          <div className="w-full  xl:w-[50%]">
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
@@ -176,7 +194,7 @@ function Work() {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="object-center xl:object-cover"
                           alt=""
                         />
                       </div>

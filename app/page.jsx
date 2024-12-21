@@ -31,7 +31,10 @@ export default function Home() {
                 size="lg"
                 className="uppercase flex items-center gap-2 hover:text-primary"
               >
-                <Link href="">
+                <Link
+                  href="https://drive.google.com/file/d/18PI5B9ytCNH4KmZvJ_jnEl8gfl_01M2K/view?usp=sharing"
+                  target="_blank"
+                >
                   <span>Download CV</span>
                 </Link>
                 <FiDownload className="text-xl" />
