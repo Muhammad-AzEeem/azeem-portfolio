@@ -29,7 +29,7 @@ const projects = [
       { name: "React.js" },
       { name: "Next.js" },
     ],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/thumb10.png",
     live: "https://car-showcase-mk.vercel.app/",
     github: "https://github.com/Muhammad-AzEeem/car_showcase",
   },
