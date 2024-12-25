@@ -18,6 +18,23 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
+    category: "Full Stack",
+    title: "Project 1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
+
+    stack: [
+      { name: "Html" },
+      { name: "Tailwind" },
+      { name: "React.js" },
+      { name: "Next.js" },
+    ],
+    image: "/assets/work/thumb1.png",
+    live: "https://car-showcase-mk.vercel.app/",
+    github: "https://github.com/Muhammad-AzEeem/car_showcase",
+  },
+  {
+    num: "02",
     category: "frontend",
     title: "Project 1",
     description:
