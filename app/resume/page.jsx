@@ -74,8 +74,14 @@ const experience = {
     {
       company: "Freelance.",
       position: "Front End Developer",
+      duration: "12 - 2022 to Present",
+    },
+    {
+      company: "Freelance.",
+      position: "Front End Developer",
       duration: "2024 - Present",
     },
+
     {
       company: "BitsPro.",
       position: "Front End Developer Intern",
@@ -88,8 +94,8 @@ const experience = {
     },
     {
       company: "Exceed Pharmaceutical (PVT) LTD.",
-      position: "IT INCHARGE",
-      duration: "05 - 2020 to 05 - 2023",
+      position: "IT Support Specialist",
+      duration: "05 - 2020 to 05 - 2022",
     },
   ],
 };

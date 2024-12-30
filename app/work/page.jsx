@@ -46,7 +46,7 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/OmniFood.git",
   },
   {
-    num: "02",
+    num: "03",
     category: "frontend",
     title: "Project 2",
     description:
@@ -58,7 +58,7 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/Tour-natour",
   },
   {
-    num: "03",
+    num: "04",
     category: "FullStack",
     title: "Project 3",
     description:
@@ -75,7 +75,7 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/the-wild-oasis-react.git",
   },
   {
-    num: "04",
+    num: "05",
     category: "Frontend",
     title: "Project 4",
     description:
@@ -92,7 +92,7 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/fast-pizza-react.git",
   },
   {
-    num: "05",
+    num: "06",
     category: "Frontend",
     title: "Project 5",
     description:
