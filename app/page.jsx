@@ -17,7 +17,7 @@ export default function Home() {
             <span className="text-xl">Software Engineer</span>
             <h1 className="h1 mb-6">
               Hello I'm <br />
-              <span className="text-accent">Mohamed Azeem</span>
+              <span className="text-accent">Muhamed Azeem</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at crafting elegant digital experiences and I am
@@ -27,7 +27,7 @@ export default function Home() {
             {/* btn & social icons */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Link
-                href="https://drive.google.com/file/d/18PI5B9ytCNH4KmZvJ_jnEl8gfl_01M2K/view?usp=sharing"
+                href="https://drive.google.com/file/d/1X0Pni7JFQ66TTM782l7vB1abdJUf-6G7/view?usp=sharing"
                 target="_blank"
               >
                 <Button
