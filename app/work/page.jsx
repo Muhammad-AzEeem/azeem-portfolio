@@ -35,32 +35,8 @@ const projects = [
   },
   {
     num: "02",
-    category: "frontend",
-    title: "Project 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
-
-    stack: [{ name: "Html5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "https://snazzy-gelato-49875b.netlify.app/",
-    github: "https://github.com/Muhammad-AzEeem/OmniFood.git",
-  },
-  {
-    num: "03",
-    category: "frontend",
-    title: "Project 2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
-
-    stack: [{ name: "Html5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb6.png",
-    live: "https://natourse-tours.netlify.app/",
-    github: "https://github.com/Muhammad-AzEeem/Tour-natour",
-  },
-  {
-    num: "04",
     category: "FullStack",
-    title: "Project 3",
+    title: "Project 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
@@ -75,7 +51,24 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/the-wild-oasis-react.git",
   },
   {
-    num: "05",
+    num: "03",
+    category: "FullStack",
+    title: "Project 4",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
+
+    stack: [
+      { name: "Html5" },
+      { name: "Tailwind" },
+      { name: "React.js" },
+      { name: "Nextjs" },
+    ],
+    image: "/assets/work/thumb7.png",
+    live: "https://realestate-alpha-ten.vercel.app/search?purpose=for-sale",
+    github: "https://github.com/Muhammad-AzEeem/realestate",
+  },
+  {
+    num: "04",
     category: "Frontend",
     title: "Project 4",
     description:
@@ -92,9 +85,34 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/fast-pizza-react.git",
   },
   {
-    num: "06",
-    category: "Frontend",
+    num: "05",
+    category: "frontend",
     title: "Project 5",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
+
+    stack: [{ name: "Html5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/thumb1.png",
+    live: "https://snazzy-gelato-49875b.netlify.app/",
+    github: "https://github.com/Muhammad-AzEeem/OmniFood.git",
+  },
+  {
+    num: "06",
+    category: "frontend",
+    title: "Project 6",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
+
+    stack: [{ name: "Html5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/thumb6.png",
+    live: "https://natourse-tours.netlify.app/",
+    github: "https://github.com/Muhammad-AzEeem/Tour-natour",
+  },
+
+  {
+    num: "07",
+    category: "Frontend",
+    title: "Project 7",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
