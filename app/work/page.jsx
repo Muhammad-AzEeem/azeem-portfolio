@@ -63,7 +63,7 @@ const projects = [
       { name: "React.js" },
       { name: "Nextjs" },
     ],
-    image: "/assets/work/thumb7.png",
+    image: "/assets/work/thumb11.png",
     live: "https://realestate-alpha-ten.vercel.app/search?purpose=for-sale",
     github: "https://github.com/Muhammad-AzEeem/realestate",
   },
