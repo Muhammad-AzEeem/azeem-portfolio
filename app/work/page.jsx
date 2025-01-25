@@ -51,9 +51,9 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/gpt3",
   },
   {
-    num: "02",
+    num: "03",
     category: "FullStack",
-    title: "Project 2",
+    title: "Project 3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
@@ -68,7 +68,7 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/the-wild-oasis-react.git",
   },
   {
-    num: "03",
+    num: "04",
     category: "FullStack",
     title: "Project 4",
     description:
@@ -85,9 +85,9 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/realestate",
   },
   {
-    num: "04",
+    num: "05",
     category: "Frontend",
-    title: "Project 4",
+    title: "Project 5",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
@@ -102,9 +102,9 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/fast-pizza-react.git",
   },
   {
-    num: "05",
+    num: "06",
     category: "frontend",
-    title: "Project 5",
+    title: "Project 6",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
@@ -114,9 +114,9 @@ const projects = [
     github: "https://github.com/Muhammad-AzEeem/OmniFood.git",
   },
   {
-    num: "06",
+    num: "07",
     category: "frontend",
-    title: "Project 6",
+    title: "Project 7",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
@@ -127,9 +127,9 @@ const projects = [
   },
 
   {
-    num: "07",
+    num: "08",
     category: "Frontend",
-    title: "Project 7",
+    title: "Project 8",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
 
