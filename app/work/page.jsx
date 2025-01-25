@@ -35,6 +35,23 @@ const projects = [
   },
   {
     num: "02",
+    category: "Frontend",
+    title: "Project 2",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea .",
+
+    stack: [
+      { name: "HTML" },
+      { name: "Css" },
+      { name: "JavaScript" },
+      { name: "React.Js" },
+    ],
+    image: "/assets/work/thumb12.png",
+    live: "https://gptfusion.netlify.app/",
+    github: "https://github.com/Muhammad-AzEeem/gpt3",
+  },
+  {
+    num: "02",
     category: "FullStack",
     title: "Project 2",
     description:
