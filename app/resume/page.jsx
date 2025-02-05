@@ -74,7 +74,7 @@ const experience = {
     {
       company: "Freelance.",
       position: "Front End Developer",
-      duration: "2024 - Present",
+      duration: "2022 - Present",
     },
 
     {

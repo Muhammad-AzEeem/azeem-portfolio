@@ -8,7 +8,7 @@ const stats = [
     text: "Years of experience",
   },
   {
-    num: 15,
+    num: 30,
     text: "Projects Completed",
   },
   {
@@ -16,7 +16,8 @@ const stats = [
     text: "Technologies Mastered",
   },
   {
-    num: 20,
+    num: 24,
+
     text: "Code Commits",
   },
 ];
@@ -29,7 +30,7 @@ function Stats() {
           {stats.map((item, i) => {
             return (
               <div
-                className="flex-1 flex gap-4 items-center justify-center xl:justify-start"
+                className="flex-1 flex gap-4 items-center justify-center flex-wrap xl:justify-start "
                 key={i}
               >
                 <CountUp
@@ -37,12 +38,12 @@ function Stats() {
                   duration={5}
                   delay={2}
                   //   suffix={item.text}
-                  className="text-4xl xl:text-6xl font-extrabold"
+                  className=" text-4xl xl:text-6xl font-extrabold"
                 />
                 <p
                   className={`${
-                    item.text.length < 15 ? "max-w-[130px]" : "max-w-[150px]"
-                  } leading-snug text-white/80`}
+                    item.text.length < 15 ? "max-w-[120px]" : "max-w-[150px]"
+                  } leading-snug text-white/80 text-center xl:text-left `}
                 >
                   {item.text}
                 </p>
