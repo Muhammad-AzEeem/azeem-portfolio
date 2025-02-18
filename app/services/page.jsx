@@ -14,23 +14,23 @@ const services = [
   },
   {
     num: "02",
+    title: "IT Support Specialist",
+    description:
+      " Excelling in technical troubleshooting, system maintenance, and help desk management. Adept at resolving hardware/software issues, optimizing IT operations, and managing system integrations",
+    href: "",
+  },
+  {
+    num: "03",
     title: "Wordpress",
     description:
       "Experienced in creating and managing WordPress websites, including theme customization, plugin integration, and content management for dynamic and responsive web solutions",
     href: "",
   },
   {
-    num: "03",
+    num: "04",
     title: "Video Editing",
     description:
       "Proficient in video editing with expertise in crafting engaging and professional content, utilizing advanced tools for seamless transitions, effects, and storytelling",
-    href: "",
-  },
-  {
-    num: "04",
-    title: "SQL",
-    description:
-      "Skilled in SQL for database management, including creating, querying, and optimizing databases to ensure efficient data storage and retrieval",
     href: "",
   },
 ];
